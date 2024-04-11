@@ -1,6 +1,22 @@
 {
   "name": "ray-tree",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "dev:vite": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tree": "npx dpdm project-test/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "dpdm": "^3.14.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "echarts": "^5.4.3"
   }
 }
