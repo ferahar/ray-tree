@@ -1,2 +1,8 @@
-export { cloneObject } from './cloneObject'
-export { compareFile } from './compareFile'
+import { cloneObject } from './cloneObject'
+import { compareFile } from './compareFile'
+
+
+export {
+    cloneObject,
+    compareFile
+}

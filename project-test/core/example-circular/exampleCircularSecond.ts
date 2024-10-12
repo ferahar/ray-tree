@@ -1,6 +1,6 @@
-import { CircularOne } from './exampleCircularOne'
+// import { CircularOne } from './exampleCircularOne'
 
 export const CircularSecond = () => {
-    CircularOne();
+    // CircularOne();
     console.log('CircularSecond')
 }

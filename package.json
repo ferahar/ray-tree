@@ -6,12 +6,16 @@
     "dev:vite": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tree": "npx dpdm project-test/index.ts"
+    "tree": "npx dpdm project-test/index.ts",
+    "ray": "node src/core/parcer.js"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
+    "acorn": "^8.12.1",
     "dpdm": "^3.14.0",
+    "fs-extra": "^11.2.0",
     "nodemon": "^3.1.0",
+    "path": "^0.12.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
